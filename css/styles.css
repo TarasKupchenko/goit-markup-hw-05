@@ -12,6 +12,7 @@
    --fill: #f4f4fd;
    --client-link: #8e8f99; 
    --hidden-color: #f4f4fd; 
+   --form-color: #8e8f99;
 }
 /*-----------------------------------------*/
 *{
@@ -746,4 +747,17 @@ margin-bottom: 16px;
 
 .bacdrop-formm{
    margin-bottom: 8px;
+}
+
+.bacdrop-formm-name{
+   font-size: 12px;
+   line-height: 1.17;
+   letter-spacing: 0.04em;
+   color: var(--form-color);
+   display: block;
+   margin-bottom: 4px;
+}
+
+.name-block{
+   
 }
