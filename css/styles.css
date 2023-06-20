@@ -488,6 +488,10 @@ height: 88px;
    gap: 16px;
 }
 
+.footer-social-block{
+   margin-right: 80px;
+}
+
 .footer-text-social{
    font-weight: 500;
    font-size: 16px;  
