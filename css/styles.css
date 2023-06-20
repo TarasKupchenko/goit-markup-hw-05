@@ -846,7 +846,7 @@ margin-bottom: 16px;
 
 }
 
-.backdrop-checkbox:checked + .backdrop-checkbox-label span{
+.backdrop-checkbox:checked + .backdrop-checkbox-label .backdrop-checkbox-icon{
    background-color: #404bbf; 
    fill: var(--fill);
    border: none;
