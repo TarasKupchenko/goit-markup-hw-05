@@ -845,7 +845,7 @@ margin-bottom: 16px;
 
 }
 
-input[type="checkbox"]:checked .backdrop-checkbox-link{
+.backdrop-checkbox:checked .backdrop-checkbox-link{
    background-color: #404bbf; 
    fill: var(--fill);
    border: none;
