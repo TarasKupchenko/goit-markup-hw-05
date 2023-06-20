@@ -789,7 +789,7 @@ margin-bottom: 16px;
    fill: #2E2F42;
 }
 
-.name-block:focus .form-name-icon{
+.form-input-name:focus + .form-name-icon{
    fill: #4D5AE5; 
 }
 
@@ -846,7 +846,7 @@ margin-bottom: 16px;
 
 }
 
-.backdrop-checkbox:checked .backdrop-checkbox-link{
+.backdrop-checkbox:checked + .backdrop-checkbox-link{
    background-color: #404bbf; 
    fill: var(--fill);
    border: none;
