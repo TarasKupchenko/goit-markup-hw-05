@@ -56,7 +56,7 @@ body{
    /*width: 1158px;*/
    width: 100%;
    margin: 0 auto;
-   padding: 0 15px 0 15px;
+   padding: 0 ;
 }
 
 .visually-hidden{
@@ -188,29 +188,35 @@ address{
 
 /*------------------HERO-----------------*/
 .hero{
-   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   padding: 188px 0;
-   max-width: 1440px;
+   /*padding: 188px 0;*/
+   padding: 112px 0;
+   /*max-width: 1440px;*/
    margin: 0 auto;
 }
 .hero-contanier{
-   
+   padding: 0;
    
 }
 .hero-tittle {
    font-weight: 700;
-font-size: 56px;
+/*font-size: 56px;
 line-height: 1.07;
 text-align: center;
-letter-spacing: 0.02em;
+letter-spacing: 0.02em;*/
+font-size: 36px;
+line-height: 1.11; /* 40/36 */
+letter-spacing: 0.72px;
+text-transform: capitalize;
 color: #FFFFFF;
 max-width: 496px;
 text-align: center;
 margin: 0 auto;
-margin-bottom: 48px;
+margin-bottom: 72px;
+
 }
 .hero-btn {
    display: block;
@@ -478,7 +484,7 @@ height: 88px;
 }
 
 .footer-logo{
-   /*margin-right: 120px;*/
+   /*margin-right: 120px;*/ 
 }
 
 .footer-container a{
@@ -556,6 +562,7 @@ text-align: center;
    /*gap: 24px;*/
    gap: 16px;
    flex-wrap: wrap;
+   justify-content: center;
 }
 
 .footer-form-input{
@@ -975,6 +982,7 @@ margin-bottom: 16px;
 @media screen and (min-width: 428px) {
    .container {
       max-width: 396px;
+      padding: 0 15px 0 15px;
       
    }
    .clients-list-items{
@@ -986,7 +994,10 @@ margin-bottom: 16px;
 @media screen and (min-width: 768px) {
    .container {
       max-width: 768px;
-      padding: 0 16px;
+      
+   }
+   .hero{
+      background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
    }
    .benefits-item{
      
@@ -1002,7 +1013,11 @@ margin-bottom: 16px;
       gap: 64px 24px; 
    }
    .team-list{
+      /*width: calc((100% - 24px) / 2);*/
       
+   }
+   .clients-container{
+      max-width: 552px;
    }
    .clients-list-items{
       width: calc((100% - 72px) / 3);
@@ -1012,12 +1027,15 @@ margin-bottom: 16px;
    }
    .footer-container{
       justify-content: start;
+      gap: 0;
+      max-width: 552px;
+      gap: 72px 24px;
    }
       .footer-logo{
          max-width: 264px;
-         margin-left: 106px;
-         margin-right: 24px;
-
+      }
+      .footer-form-text{
+         text-align: left;
       }
    .logo-link-footer{
       text-align: left;
@@ -1034,8 +1052,19 @@ margin-bottom: 16px;
       max-width: 1158px;
       
    }
+   .hero{
+      max-width: 1440px;
+      padding: 188px 0;
+      background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+   }
+   .hero-tittle{
+      font-size: 56px;
+      line-height: 1.07;
+      text-align: center;
+      letter-spacing: 0.02em;
+      margin-bottom: 48px;
+   }
    .benefits-item{
-     
          width: calc((100% - 72px)/4);    
    }
    .benefits .list{
